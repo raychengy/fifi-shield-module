@@ -1,0 +1,8 @@
+# Copyright (c) 2024 Ray Cheng
+# SPDX-License-Identifier: MIT
+
+config SHIELD_FIFI_CHOC_LEFT
+    def_bool $(shields_list_contains,fifi_choc_left)
+
+config SHIELD_FIFI_CHOC_RIGHT
+    def_bool $(shields_list_contains,fifi_choc_right)

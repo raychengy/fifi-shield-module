@@ -1,0 +1,12 @@
+file_format: "1"
+id: fifi_choc
+name: Fifi
+type: shield
+url: https://github.com/raychengy/fifi_split_keeb
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - fifi_choc_left
+  - fifi_choc_right
